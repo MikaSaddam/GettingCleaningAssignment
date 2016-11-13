@@ -11,13 +11,13 @@ The assignment project is about writing an R script (`run_analysis.R`) that fulf
 
 The data to be processed was collected from smartphones.
 
-* Downloads and unzips the zipped data 
+* Downloads and unzips the zipped data before run the script
 
 The script `run_analysis.R` will perform as below:
 
-* Reads the datasets variable  `XTest`, `XTrain`, `YTest`, `YTrain`, `SubjectTest`, `SubjectTrain`
-* Combine all the datasets for "Training" and "Test" into auxiliary data frames (XDATA, YDATA, SUBJECTDATA)
+* Reads the datasets variable  `observationType`, `testSubjects`, `testActivities`, `testData`
+* Combine all the datasets variable needed 
 * Reads dataset "Features" and extracts only the variables for mean and standard deviation for each measurement
-* Perform subsetting and updates on XDATA, YDATA, SUBJECTDATA
-* Combine all the updated datasets XDATA, YDATA, SUBJECTDATA into MERGED_DATA
+* Perform subsetting and updates on testData, trainData
+* Combine all the updated datasets  variable needed 
 * Generates output ASCII file (CleanData.txt) 
